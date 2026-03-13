@@ -1,0 +1,46 @@
+version = 1
+
+[[annotations]]
+path = [
+  ".gitignore",
+  ".tool-versions",
+  "REUSE.toml",
+  "blinky/.gitignore",
+  "blinky/mix.exs",
+  "blinky/mix.lock",
+  "atomgl/.formatter.exs",
+  "atomgl/.gitignore",
+  "atomgl/mix.exs",
+  "atomgl/mix.lock",
+  "lovyangfx/.formatter.exs",
+  "lovyangfx/.gitignore",
+  "lovyangfx/mix.exs",
+  "lovyangfx/mix.lock"
+]
+precedence = "aggregate"
+SPDX-FileCopyrightText = "NONE"
+SPDX-License-Identifier = "CC0-1.0"
+
+[[annotations]]
+path = [
+  "README.md",
+  "blinky/README.md",
+  "blinky/lib/**",
+  "atomgl/README.md",
+  "atomgl/lib/**",
+  "lovyangfx/README.md",
+  "lovyangfx/lib/**",
+  "lovyangfx/priv/assets/icons/*.rgb565",
+]
+precedence = "aggregate"
+SPDX-FileCopyrightText = "2026 Masatoshi Nishiguchi, piyopiyo.ex members"
+SPDX-License-Identifier = "Apache-2.0"
+
+[[annotations]]
+path = [
+  "atomgl/atomvm-esp32s3-elixir.img",
+  "lovyangfx/atomvm-esp32s3-elixir.img",
+]
+precedence = "aggregate"
+SPDX-FileCopyrightText = "2026 Masatoshi Nishiguchi, piyopiyo.ex members"
+SPDX-License-Identifier = "Apache-2.0"
